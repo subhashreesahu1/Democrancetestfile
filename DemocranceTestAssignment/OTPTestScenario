@@ -1,0 +1,23 @@
+If we are trying to automate OTP cases it can not be done via Selenium. But few options are,We can take record from DB if the log entry is getting logged upon user interaction.
+We can take record from server if the log entry is getting logged upon user interaction.
+We can take record from corporate email if the OTP is being registered in corporate email address.
+
+If we want to test manually then below scenarios can be useful to test the otp
+Check if OTP is Generated and Sent to the Correct User
+Verify the OTP Input Field
+Verify OTP Length
+Verify OTP Expiration Time
+Check if OTP is Verified Successfully
+Check if incorrect OTP is Rejected
+Check if the User can Request Another OTP
+Check if OTP is Sent to Multiple Devices
+Verify the OTP Input Field with Special Characters
+Check if the User Can Resend the OTP
+Check if the OTP Input Field has a Character Limit
+Verify the OTP Validation Process
+Check if OTP Input is Case-Insensitive
+Check if OTP is Sent to the Correct Country Code
+Check if the OTP Input Field is Disabled After Successful Verification
+Check if a User is Notified of OTP Resend
+Check if the OTP Input Field is Disabled After a Certain Number of Attempts
+Check if the User is Locked out After a Certain Number of Attempts

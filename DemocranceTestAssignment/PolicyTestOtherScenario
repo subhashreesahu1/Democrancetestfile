@@ -1,0 +1,16 @@
+1.All fields are visible properly and enabled for user operation
+2.For DOB
+ a. User should not be able to select future date.
+ b. Verify calendar widget works properly
+ c. Verify the previous and next links can be interacted with in the date picker
+ d.Validate the date selected in the date picker shows the same date in any corresponding date box
+ e.Validate the date form accepts inputs correctly DD/MM/YYYY.
+3. For Gender:- All gender options should be listed
+Enabled for user selection
+User should choose properly
+4. We need to validate all mandatory fields should throw error if not filled by user.
+5. Upon data fill all valid data should populate on screen
+6. Policy number should be generated
+7. User should be able to download policy
+8. After download policy should populate accurate data with proper format
+9.Policy effective date should follow with guidelines given in BRD.
